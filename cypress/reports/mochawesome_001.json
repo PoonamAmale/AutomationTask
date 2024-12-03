@@ -1,0 +1,124 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-12-03T04:51:38.162Z",
+    "end": "2024-12-03T04:52:17.343Z",
+    "duration": 39181,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "93fc4be7-b2e8-4248-b580-abc4023cde10",
+      "title": "",
+      "fullFile": "cypress\\e2e\\BDD\\login.feature",
+      "file": "cypress\\e2e\\BDD\\login.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "27315bc3-9c84-4544-b127-ff001f62e4a1",
+          "title": "Create an account and singIn with same account",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Verify Create an Account functionality",
+              "fullTitle": "Create an account and singIn with same account Verify Create an Account functionality",
+              "timedOut": null,
+              "duration": 22068,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "5884a39e-0ed8-46bf-8f6b-5c46eaf12902",
+              "parentUUID": "27315bc3-9c84-4544-b127-ff001f62e4a1",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verify login functionality",
+              "fullTitle": "Create an account and singIn with same account Verify login functionality",
+              "timedOut": null,
+              "duration": 11745,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "09081927-5cf0-4fef-88eb-28e3a28d32c9",
+              "parentUUID": "27315bc3-9c84-4544-b127-ff001f62e4a1",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "5884a39e-0ed8-46bf-8f6b-5c46eaf12902",
+            "09081927-5cf0-4fef-88eb-28e3a28d32c9"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 33813,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
